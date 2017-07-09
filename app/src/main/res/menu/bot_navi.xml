@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id = "@+id/botnavi_random"
+        android:icon = "@drawable/ic_shuffle_black_24dp"
+        android:title="@string/title_random"/>
+
+    <item
+        android:id = "@+id/botnavi_nearMe"
+        android:icon = "@drawable/ic_near_me_black_24dp"
+        android:title="@string/title_nearMe"/>
+
+    <item
+        android:id="@+id/botnavi_favs"
+        android:icon = "@drawable/ic_favorite_black_24dp"
+        android:title="@string/title_favs" />
+
+    <!--
+    <item
+        android:id="@+id/botnavi_history"
+        android:icon = "@drawable/ic_history_black_24dp"
+        android:title="@string/title_history" /> -->
+</menu>

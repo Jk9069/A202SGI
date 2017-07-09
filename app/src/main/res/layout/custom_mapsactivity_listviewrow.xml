@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/restaurantDetails"
+        android:layout_margin="8dp"
+        android:padding="1dp"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="15dp">
+
+            <ImageView
+                android:id="@+id/restaurantdetail_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginStart="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/restaurantdetail_ItemTitle"
+                android:layout_height="wrap_content"
+                android:paddingLeft = "17dp"
+                android:paddingTop = "17dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/restaurantdetail_icon"
+                android:layout_toEndOf="@+id/restaurantdetail_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/restaurantdetail_ItemContent"
+                android:paddingLeft="17dp"
+                android:paddingBottom="17dp"
+                android:layout_marginLeft="47dp"
+                android:layout_below="@+id/restaurantdetail_ItemTitle"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

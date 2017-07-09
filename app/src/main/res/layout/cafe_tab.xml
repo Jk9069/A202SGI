@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.pickeat4me.cafe_tab">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id = "@+id/cafe_refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id = "@+id/nearMe_CafelistView"
+            android:divider="@null"
+            android:dividerHeight="0dp"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingBottom="15dp" android:paddingTop="15dp">
+
+    <TextView android:text="@string/slider_title"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+        android:paddingLeft="15dp"
+        />
+
+    <TextView
+        android:id="@+id/seekbarpref_summary"
+        android:text = "@string/radiuspref_summary"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingLeft="15dp"/>
+
+    <include layout="@layout/radius_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

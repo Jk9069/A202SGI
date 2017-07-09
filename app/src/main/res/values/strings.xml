@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">PickEAT 4 Me</string>
+
+    <!-- activity title -->
+    <string name="title_activity_maps">Map</string>
+
+    <!--title menu item values -->
+    <string name="title_random">Random</string>
+    <string name="title_nearMe">Within Radius</string>
+    <string name="title_favs">Favourites</string>
+    <string name="title_history">History</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- random_fragment values -->
+    <string name="greeting1">Hello There!</string>
+    <string name="pick">Pick </string>
+    <string name="forMe"> 4 Me!</string>
+    <string name="shakeInstruction">Click button to get a random restaurant!</string>
+    <string name="randomFirst">Get random restaurant first.</string>
+    <string name="quickSet">Quick Set Radius</string>
+    <string name="imgDesc">Restaurant image</string>
+
+    <!-- radius_slider values -->
+    <string name="slider_title">Radius</string>
+    <string name="slider_unit">Km</string>
+
+    <!-- preferences string values -->
+    <!-- custom radiuspref values -->
+    <string name="radiuspref_summary">Search distance from your location</string>
+
+    <!-- custom ratingbarpref values -->
+    <string name="ratingBarpref_title">Minimum Ratings</string>
+    <string name="ratingBarpref_summary">Search for restaurant with preferred minimum ratings</string>
+
+    <!-- custom pricerangepref values -->
+    <string name="priceRangepref_title">Price Range</string>
+    <string name="priceRangepref_summary">Affordability of meals</string>
+    <string name="priceRangepref_veryAff">Very Affordable</string>
+    <string name="priceRangepref_Aff">Affordable</string>
+    <string name="priceRangepref_Avg">Average</string>
+    <string name="priceRangepref_Exp">Expensive</string>
+    <string name="priceRangepref_Exc">Exclusive</string>
+    <string name="priceRangepref_AnyRange">Any Range</string>
+
+    <!-- custom nearMe_listview values -->
+    <string name="notAvailable">N/A</string>
+    <string name="openNow">Open Now</string>
+    <string name="closed">Closed</string>
+
+    <!-- customer mapsActivity_listview_row values -->
+    <string name="place_address">Address</string>
+    <string name="place_phoneNumber">Phone Number</string>
+    <string name="place_rating">Rating</string>
+    <string name="place_website">Website</string>
+    <string name="place_openingHour">Opening Hours</string>
+    <string name="place_priceLvl">Price Level</string>
+
+    <!-- pop up dialog messages -->
+    <string name="loading">Loading details</string>
+    <string name="shaked">Device shaked</string>
+    <string name="noFavs">No favourites.</string>
+    <string name="ok">OK</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="noInternet">No internet connection!</string>
+    <string name="addedFav">Added to favourites!</string>
+    <string name="removeFav">Removed from favourites.</string>
+    <string name="retrievingPlace">Retrieving places</string>
+    <string name="retrievingFav">Retrieving favourites</string>
+    <string name="preparingList">Preparing list</string>
+    <string name="randomizing">Randomizing places</string>
+    <string name="noBar">No bar results found.</string>
+    <string name="noCafe">No cafe results found.</string>
+    <string name="noRes">No restaurant results found.</string>
+    <string name="noResults">No results found.</string>
+    <string name="noResultsPrompt">No results found. Increment radius and search again?</string>
+    <string name="maxVal">Maximum radius is 50</string>
+    <string name="offlineView">Device offline. Unable to make sure whether place is opened now.</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Searching" >
+
+        <com.example.user.pickeat4me.custom_radiusPreference
+            android:key = "seekbarRad" />
+
+        <com.example.user.pickeat4me.custom_rateBarPreference
+            android:key = "ratingbarPref" />
+
+        <com.example.user.pickeat4me.custom_priceRangePreference
+            android:key = "pricerangePref" />
+
+        <!--
+        <CheckBoxPreference
+            android:key = "veganPref"
+            android:title="Are you vegan?"
+            android:id="@+id/checkbox_vegan"
+            android:defaultValue="false" /> -->
+
+        <CheckBoxPreference
+            android:key = "onlyOpenPref"
+            android:title="Only show opened restaurants?"
+            android:id="@+id/onlyOpenPref"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

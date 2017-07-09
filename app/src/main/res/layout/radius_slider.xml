@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <SeekBar
+            android:id="@+id/radius_seekbar"
+            android:layout_width="234dp"
+            android:layout_height="wrap_content"
+            android:padding="22dp" />
+
+        <EditText
+            android:id="@+id/sliderVal"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:ems="6"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/radiusSlider_metres"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/slider_unit"
+            android:layout_gravity="center_horizontal|center_vertical"
+            />
+
+    </GridLayout>

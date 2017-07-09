@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/greeting"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text = "@string/greeting1"
+        android:padding = "20dp"/>
+
+    <!--
+    <include layout="@layout/place_type_random"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/include"
+        android:layout_below="@+id/greeting"
+        android:layout_centerHorizontal="true" /> -->
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/grid_random"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/greeting"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/pick"
+            android:paddingRight="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+        <Spinner
+            android:id="@+id/sp_placeType"
+            android:textAlignment="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/forMe"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
+
+    </GridLayout>
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="150dp"
+        android:layout_gravity = "center_horizontal|center_vertical"
+        android:id="@+id/resImg"
+        android:contentDescription="@string/imgDesc"
+        android:src="@drawable/closhe_inapp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/grid_random"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/shake_instruction"
+        android:textStyle="italic"
+        android:text = "@string/shakeInstruction"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/resImg"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id = "@+id/mainImgView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/quickSet"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_above="@+id/quickSetRad"
+        android:paddingLeft="20dp"/>
+
+    <include layout="@layout/radius_slider"
+        android:id="@+id/quickSetRad"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/randomize_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="@string/title_random"
+        android:layout_below="@+id/shake_instruction"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
